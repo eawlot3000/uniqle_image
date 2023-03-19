@@ -11,3 +11,4 @@
 * multi directories at the same time?
 * multi threads to improve speed?
 * in root? (great for clean your disk space yuh?)
+* GPU support? (need python <= 3.9)
