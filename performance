@@ -1,0 +1,9 @@
+time python3 main.py test_images/
+-->
+python3 main.py test_images/  49.55s user 3.76s system 99% cpu 53.379 total   
+
+
+
+time xargs -P 128 | python3 main.py test_images/
+-->
+python3 main.py test_images/  49.83s user 3.59s system 99% cpu 53.622 total
