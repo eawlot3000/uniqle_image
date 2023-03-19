@@ -1,4 +1,4 @@
-## a CLI tool that help you find out some duplicated media in a specifc directory
+## a tool in CLI that help you find out some duplicated media in a specifc directory
 
 
 ### Features:
