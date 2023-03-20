@@ -1,6 +1,11 @@
 ## a tool in CLI that help you find out some duplicated media in a specifc directory
 
 
+### `requirements`:
+```
+pip3 install -r requirements.txt
+```
+
 ### `usage:`
 ```
 python3 main.py [FOLDER_NAME/]
