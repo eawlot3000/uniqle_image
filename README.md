@@ -27,7 +27,7 @@ python main.py [FOLDER/]
 * GPU support? (tf needs python <= 3.9)
 
 
-tree view
+`tree view`
 ```
 .
 ├── README.md
