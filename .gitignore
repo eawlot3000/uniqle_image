@@ -26,3 +26,7 @@
 *.iso
 *.exe
 
+enumerate.py
+dic_test.py
+_colorful_test.py
+copy_main.py

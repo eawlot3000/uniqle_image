@@ -1,23 +1,23 @@
-## a tool in CLI that help you find out some duplicated media in a specifc directory
+# uniqle media
+a CLI tool that help you find out duplicated media (images/videos) in a specifc directory
 
 
-#### `requirements`:
+# Features
+* make sure `main.py` works but slow
+* create a duplicated folder to store your wasted so that you can review it and move on
+
+
+# requirements
 ```
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
-#### `usage:`
+# usage
 ```
-python3 main.py [FOLDER_NAME/]
+python main.py [FOLDER/]
 ```
 
-
-
-
-### Features:
-* make sure `main.py` works but slow!
-* create a duplicated folder to store your wasted data so that you can review it
-
+----
 ### TODO
 * PRIORITY! PROCESSES TIME IN GENERAL 
 * exception data type support? [-args] 
@@ -25,3 +25,13 @@ python3 main.py [FOLDER_NAME/]
 * multi threads to improve speed?
 * in root? (great for clean your disk space yuh?)
 * GPU support? (tf needs python <= 3.9)
+
+
+```
+.
+├── README.md
+├── copy_main.py
+├── main.py
+├── performance
+├── requirements.txt
+```
