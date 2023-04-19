@@ -18,6 +18,7 @@ python main.py [FOLDER/]
 ```
 
 <br>
+
 ----
 ### TODO
 * PRIORITY! PROCESSES TIME IN GENERAL 
