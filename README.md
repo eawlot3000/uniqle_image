@@ -17,6 +17,7 @@ pip install -r requirements.txt
 python main.py [FOLDER/]
 ```
 
+<br>
 ----
 ### TODO
 * PRIORITY! PROCESSES TIME IN GENERAL 
@@ -26,7 +27,7 @@ python main.py [FOLDER/]
 * in root? (great for clean your disk space yuh?)
 * GPU support? (tf needs python <= 3.9)
 
-
+<br>
 `tree view`
 ```
 .
