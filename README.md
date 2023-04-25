@@ -6,6 +6,7 @@ A user-specific [multi-threads supporting](https://github.com/eawlot3000/uniqle_
 * support user-specific multi-threads now!
 * make sure `main.py` works but slow
 * create a duplicated folder to store your wasted so that you can review it and move on
+* any errors handling and also performance display
 
 
 # Performance
