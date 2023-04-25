@@ -1,4 +1,4 @@
-# uniqle media
+# uniqle media 📁
 a CLI tool that help you find out duplicated media (images/videos) in a specifc directory
 
 
@@ -29,7 +29,7 @@ python faster_main.py [FOLDER/]
 * PRIORITY! PROCESSING TIME IN GENERAL 
 * exception data type support? [-args] 
 * multi directories at the same time? [multi arguments]
-* multi threads to improve speed? [done]
+* multi threads to improve speed? ✅
 * in root? (great for clean your disk space yuh?)
 * GPU support? (tf needs python <= 3.9)
 
