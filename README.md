@@ -11,7 +11,7 @@ a CLI tool that help you find out duplicated media (images/videos) from a specif
 # Performance
 I have tested a folder which has 683 images up to 835MB with different formats, including 19 duplicates. with `MAX_THREADS = 64`, it took `14 seconds` to finish perfectly!
 ### how to maximum the speed if you have better specs?
-modify `MAX_THREADS = [YOUR DESIRED THREADS]` in `faster_main.py` file. You should try yourself for best performance because everyone's machine is different.
+modify `MAX_THREADS = [YOUR DESIRED THREADS]` in [faster_main.py](faster_main.py) file. You should try yourself for best performance because everyone's machine is different.
 
 # requirements
 ```
