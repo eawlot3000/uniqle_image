@@ -1,5 +1,5 @@
 # uniqle media 📁
-a CLI tool that help you find out duplicated media (images/videos) from a specifc directory
+A user-specific multi-threads supporting CLI tool that help you find out duplicated media (images/videos) from a specifc directory
 
 
 # Features
