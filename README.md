@@ -1,10 +1,11 @@
 # uniqle media 📁
 A user-specific [multi-threads supporting](https://github.com/eawlot3000/uniqle_media#performance) CLI tool that help you find out duplicated media (images/videos) from a specifc directory
+----
+## [中文版本](cn-README.md)
 
 
 # Features
 * support user-specific multi-threads now!
-* make sure `main.py` works but slow
 * create a duplicated folder to store your wasted so that you can review it and move on
 * any errors handling and also performance display
 
