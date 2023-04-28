@@ -11,7 +11,7 @@ A user-specific [multi-threads supporting](https://github.com/eawlot3000/uniqle_
 
 
 # Performance
-I have tested a folder which has 683 images up to 835MB with different formats, including 19 duplicates. with `MAX_THREADS = 64`, it took `14 seconds` to finish perfectly!
+I have tested a folder which has 683 images up to 835MB with different formats, including 19 duplicates. with `MAX_THREADS = 64`, it only took `14 seconds` to finish perfectly!
 ### how to maximum the speed if you have better configs?
 modify `MAX_THREADS = [YOUR DESIRED THREADS]` in [faster_main.py](faster_main.py) file. You should try yourself for best performance because everyone's machine is different.
 
@@ -29,12 +29,12 @@ python faster_main.py [FOLDER/]
 
 ----
 ### TODO
-* PRIORITY! PROCESSING TIME IN GENERAL 
+* `time priority`
 * exception data type support? [-args] 
 * multi directories at the same time? [multi arguments]
 * multi threads to improve speed? ✅
 * in root? (great for clean your disk space yuh?)
-* GPU support? (tf needs python <= 3.9)
+* GPU support? (tf needs python <= 3.9, NO arm mac)
 
 <br>
 
