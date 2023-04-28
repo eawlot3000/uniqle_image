@@ -1,5 +1,7 @@
 # uniqle media 📁
 一个支持用户自定义[多线程的CLI 工具](https://github.com/eawlot3000/uniqle_media#performance)，可帮助您从特定目录中查找重复的媒体（图像/视频）
+----
+### English version
 
 
 # 功能
