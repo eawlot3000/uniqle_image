@@ -13,25 +13,24 @@ import threading
 
 def og_path():
   if len(sys.argv) < 2:
-    print(colored('ERROR: Please provide your folder path to check for duplicates\nfor example: images/', 'red'))
+    print(colored('ERROR: Please provide at least one folder path to check for duplicates\nfor example: images/', 'red'))
     sys.exit()
 
-  path, num_in_path = sys.argv[1], os.listdir(sys.argv[1])
-  check_confirm = str(input(colored(f"\nReady to check ==> {len(num_in_path)} <== files in {path} [Y/N]", 'green')))
+  paths = sys.argv[1:]
+  num_in_paths = [os.listdir(p) for p in paths]
+  total_num_files = sum(len(num) for num in num_in_paths)
+  check_confirm = str(input(colored(f"\nReady to check ==> {total_num_files} <== files in {len(paths)} folders: {', '.join(paths)} [Y/N]", 'green')))
   if check_confirm.lower() != 'y':
     sys.exit()
   else:
-    if not os.path.exists(path):
-      print(colored("ERROR: The path you provided doesn't exist. Please try again", 'red'))
-      sys.exit()
-    elif len(os.listdir(path)) == 0:
-      print(colored("ERROR: Your provided folder is empty! Please try again", 'red'))
-      sys.exit()
-    elif len(sys.argv) > 2:
-      print(colored("ERROR: too more arguments bro", 'red'))
-      sys.exit()
-    else:
-      return path
+    for path in paths:
+      if not os.path.exists(path):
+        print(colored(f"ERROR: The path {path} doesn't exist. Skipping...", 'red'))
+      elif len(os.listdir(path)) == 0:
+        print(colored(f"WARNING: The folder {path} is empty! Skipping...", 'yellow'))
+      else:
+        return path
+
 
 
 duplicate_count, dup_lock = 0, threading.Lock() # Define global variables for counting duplicates

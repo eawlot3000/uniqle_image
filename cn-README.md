@@ -16,7 +16,9 @@
 在 [faster_main.py](faster_main.py) 文件中修改 `MAX_THREADS = [YOUR DESIRED THREADS]`。您应该自己多次尝试，以获得最佳性能，因为每个人的情况都不同。
 
 # 下载安装包
+```
 pip install -r requirements.txt
+```
 
 
 # 用法

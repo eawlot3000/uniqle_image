@@ -16,7 +16,7 @@ A user-specific [multi-threads supporting](https://github.com/eawlot3000/uniqle_
 2. For a updated 1.18GB folder that has 2438 images and vidoes includes 534 duplicates, took 23 seconds!
 =======
 I have tested a folder which has 683 images up to 835MB with different formats, including 19 duplicates. with `MAX_THREADS = 64`, it only took `14 seconds` to finish perfectly!
->>>>>>> 7c940af55f7e777bb7087afb832e3db8216dee3d
+
 ### how to maximum the speed if you have better configs?
 modify `MAX_THREADS = [YOUR DESIRED THREADS]` in [fast.py](fast.py) file. You should try yourself for best performance because everyone's machine is different.
 
